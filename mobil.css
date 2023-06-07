@@ -1,0 +1,39 @@
+
+  
+  .mobile-container {
+    max-width: 100%;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  
+  .topnav {
+    position: relative;
+    border-bottom: 1px solid ;
+    size: 30px;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+  }
+  
+  
+  

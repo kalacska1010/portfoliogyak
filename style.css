@@ -1,0 +1,251 @@
+html {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+
+  background-attachment: fixed;
+  background-image: url("../img/bemutatkozas.jpg");
+  filter: grayscale(100%);
+  background-position-y: -250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  background-size: cover ;
+  background-clip: padding-box;
+  height: 930px;
+
+
+}
+
+header h1 {
+  padding-top: 250px;
+  line-height: 150%;
+  font-size: 450%;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 85%;
+  color: white;
+  
+}
+
+header h1 a {
+  background-color: black;
+  color: white;
+}
+
+#bemutatkozas {
+  text-align: justify;
+  border-left: 4px solid black;
+  padding-left: 20px;
+  line-height: 150%;
+  font-size: 120%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 85%;
+  margin-top: 80px;
+}
+#bemutatkozas p{
+  color: black;
+  box-shadow: 100px;
+}
+
+#bemutatkozas i {
+  
+  font-size: 25px;
+  color: black;
+  margin: 0 5px 0 5px
+}
+
+#gombhelye {
+  padding-top: 150px;
+  margin: auto;
+  text-align: center;
+ 
+}
+
+
+#gombhelye a{
+
+  font-size: 50px;
+  color: white;
+}
+#gombhelye a:hover{
+  color: lightgray;
+}
+/*--------------rolam-----------------------*/
+#rolam {
+  width: 100%;
+  background-color: black;
+}
+
+.rolam1 {
+  width: 85%;
+  color: white;
+  line-height: 150%;
+  text-align: left;
+  font-size: 175%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1% 7.5% 0 7.5%;
+  text-align: justify;
+}
+
+.rolam2 {
+  margin: 0% 7.5% 0 7.5%;
+  width: 85%;
+  color: white;
+  line-height: 150%;
+  text-align: left;
+  font-size: 175%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: lightslategray;
+  opacity: 70%;
+  text-align: justify;
+}
+
+#nevkep {
+  text-align: left;
+  margin: auto;
+  margin: 0% 7.5% 0 7.5%;
+}
+
+#nevkep img {
+  width: 35%;
+  color: white;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+  margin: 50px 0 150px 0;
+}
+/*---------------------munkaim---------------------------*/
+#munkaim img {
+  width: 80%;
+  text-align: center;
+  margin: 5% 7.5% 0 7.5%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#munkaim {
+  display: flex;
+  flex-flow:row wrap;
+  text-align: center;
+
+}
+
+#munkaim>div {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  line-height: 75px;
+  
+}
+#munkaimcim{
+  margin: 50px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+/*-----------------Iskolak--------------------*/
+#iskolak h1{
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+#iskolak{
+  color: white;
+  background-color: black;
+  
+}
+
+#iskolak > div{
+  margin: 5% 7.5% 0 7.5%;
+  width: 80%;
+  border-left: 2px solid white;
+  padding-left: 25px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+#iskolak {
+  padding: 50px 0 50px 0;
+}
+
+
+
+/*-----------------footer------------------------*/
+footer {
+  background-color: black;
+  color: white;
+  margin: auto;
+  margin-bottom: -100px !important;
+  padding-bottom: 50px;
+}
+
+footer h1 {
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+
+}
+
+#kapcsolatfelvetel {
+  margin-left: 7.5%;
+  margin-bottom: 7.5%;
+  margin-right: 7.5%;
+}
+
+#kapcsolatfelvetel label {
+  margin-top: 7.5%;
+  font-size: 20px;
+  text-align: left;
+}
+
+#kapcsolatfelvetel input[type=text] {
+  border: none;
+  border-bottom: 2px solid lightslategray;
+  background-color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  margin-bottom: 7.5%;
+}
+
+#kapcsolatfelvetel input[type=text]:focus {
+  background-color: transparent;
+  border: 0px solid;
+  height: 18px;
+  width: 160px;
+  color: #CCC;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+

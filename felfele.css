@@ -1,0 +1,23 @@
+#felgomb{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: darkgray;
+    cursor: pointer;
+    padding: 25px;
+    font-size: 80px;
+    
+}
+
+#felgomb:hover{
+    color: lightgray;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
